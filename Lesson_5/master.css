@@ -1,0 +1,41 @@
+body{
+	background: #ff437e;
+	font-family: Helvetica, Times New Roman, sans-serif;
+	font-size: 20px;
+}
+
+
+h1,h2{
+	font-family: Georgia, serif, sans-serif;
+	background: #000;
+	color: #7DA27E;
+	
+}
+
+h1{
+	border: double thick #FFF ;
+	font-size: 2em;
+	padding: 10px;
+}
+
+h2{
+	border: double thick #FFF;
+	padding: 10px;
+}
+ol{
+	border: solid thick #000;
+	background: #00FFFF;
+	padding: 20px 20px 20px 40px;
+	margin: 5% 0;
+}
+
+a{
+	font: Verdana;
+}
+
+strong{
+	color: #2e335e;
+}
+
+
+

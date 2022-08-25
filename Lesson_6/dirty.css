@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #eee;
+	color: #eee;
+	font-family: Helvetica, Arial, sans-serif;
+	fonr-size: 14px;
+}
+
+#container {
+	width: 770px;
+}
+#header, #footer{
+	background: #E69A8DFF;
+	color: #FFF;
+	margin: 10px;
+	padding: 15px;	
+}
+
+#footer{
+	text-align: center;
+	font-size: 12px;
+}
+.lead{
+	font-size: 18px;
+}
+.blog-post{
+	background: #000;
+	margin: 10px;
+	padding: 30px;
+}
+
+h1,h2,h3{
+	color: #5F4B8BFF;
+}
+
+.blog-post h2, .blog-post p{
+	margin-bottom: 10px;
+}
+
+.blog-post em{
+	color: #eee;
+}

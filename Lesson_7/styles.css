@@ -1,0 +1,202 @@
+/* custom css */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, Times, serif;
+	font-size: 16px;
+}
+body{
+	padding:  20px;
+	color: #353535;
+}
+
+h1,h2,h3{
+	margin: 10px 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+h1{
+	font-size: 3em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.5em;
+	text-align: center;
+	letter-spacing: -1px;
+	word-spacing: 10px;
+}
+
+blockquote{
+	text-indent: 80px;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+span{
+	text-decoration: line-through;
+}
+
+em{
+	text-transform: capitalize;
+}
+
+strong{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: underline;
+	color: #4f56fe;
+}
+
+code{
+	display:  block;
+	color: #e76f90;
+	background: white;
+	padding: 5px 5px 5px 0;
+}
+
+/* Borders */
+
+.border-box{
+	background:  #eee;
+	margin: 0 0 20px;
+	padding: 20px;
+	width: 300px;
+}
+
+#box-1{
+	border: solid thin black;
+}
+
+#box-2{
+	border: dashed thin black;
+}
+
+#box-3{
+	border: dotted thin black;
+}
+
+#box-4{
+	border: double 4px black;
+}
+
+#box-5{
+	border: solid thick black;
+}
+
+#box-6{
+	border: dashed thick black;
+}
+
+#box-7{
+	border: dotted thick black;
+}
+
+#box-8{
+	border: double 6px black;
+}
+
+/*Background Images*/
+
+.background-example{
+	height: 200px;
+	width:  200px;
+	border: solid thin black;
+	}
+
+#background-1{
+	background: url("images/blue_background.jpg");
+}
+
+#background-2{
+	background: #a3d;
+}
+
+#background-3{
+	background: url("images/skull_background.jpg") center center no-repeat;
+}
+
+#background-4{
+	background: url("images/steak_background.jpg") bottom left repeat-x;
+}
+
+/* forms */
+
+#container{
+	width: 70%;    
+	margin: 0 auto;
+}
+
+form{
+	background-image: url("images/red_background.jpg");
+	padding:  20px;
+	font-family: Georgia, Times, serif;
+}
+
+form fieldset{
+	background-image: url("images/blue_background.jpg");
+	padding: 40px;
+	border: solid thick black;
+}
+
+form legend{
+	font-weight: bold;
+	border: solid thin #333;
+	background-image: url("images/blue_background.jpg");
+	padding: 5px;
+	font-size: 30px;
+}
+
+form input, form textarea{
+	display: block;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+	-webkit-font-smoothing: antialiased ;
+	text-rendering: optimizelegibility;
+}
+
+form label{
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+form input[type="text"], form input[type="email"], form textarea{
+	padding: 10px;
+	font-size: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	border: solid thin #b98707;
+	background-image: url("images/red_background.jpg");
+}
+
+form textarea{
+	width: 300px;
+	height: 100px;
+}
+
+
+/* the submit button had a border already before we removed it below. Find out how that happened. */
+/* Also the submit butto did not have it's default appearnce. Check that also.*/
+form input[type="submit"]{
+	border: none;
+	background: #h3c3e3;
+	color: black;
+	padding: 0 20px;
+	height: 40px;
+	border: solid 1px #d4730c;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	cursor: pointer;
+}
+
+/*In the above section the border was given none value before changing the background. And then the border
+was set again to the desired value. Chack what hinderance background image poses to borders and other things like
+background color, if any. */ 
